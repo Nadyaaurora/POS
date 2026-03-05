@@ -19,3 +19,5 @@ Route::get('/user/{id}/name/{name}', [UserController::class, 'profile']);
 
 Route::get('/penjualan', [SalesController::class, 'index']);
 
+Route::get ('/user', [UserController::class, 'index']);
+
